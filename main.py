@@ -9,7 +9,6 @@ while True:
 
 	data = requests.get('https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/br-c0001-e000545-r.json')
 	json_data = json.loads(data.content)
-	print(json_data)
 
 	candidato = []
 	partido = []
