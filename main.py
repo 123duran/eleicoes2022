@@ -18,7 +18,7 @@ while True:
 	numero = []
 
 	for informacoes in json_data['cand']:
-		if int(informacoes['seq']) in range(1,2):
+		if int(informacoes['seq']) in range(1,5):
 			candidato.append(informacoes['nm'])
 			votos.append(informacoes['vap'])
 			porcentagem.append(informacoes['pvap'])
