@@ -1,3 +1,5 @@
+[![Language Python](https://img.shields.io/badge/Linguagem-Python-blue.svg)]()
+
 # Installing requirements
 
 ### Requirements:
